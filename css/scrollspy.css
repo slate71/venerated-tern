@@ -1,0 +1,49 @@
+body {
+  font-family: 'Open Sans', sans-serif;
+  padding-top: 3.2rem;
+}
+
+nav span,
+section {
+  padding: .809rem;
+}
+
+nav {
+  background: #3c3c3c;
+  color: white;
+  line-height: 1.618rem;
+  position: fixed;
+  top: 0;
+  width: 100%
+}
+
+nav span {
+  padding-right: .809rem;
+}
+
+nav a {
+  color: white;
+  display: inline-block;
+  padding: .809rem;
+  text-decoration: none;
+}
+
+nav a:nth-child(2) {
+  background: #A1B0AB;
+}
+
+section {
+  height: 625px;
+}
+
+.section1 {
+  background: #A1B0AB;
+}
+
+.section2 {
+  background: #C3DAC3;
+}
+
+.section3 {
+  background: #D5ECD4;
+}
