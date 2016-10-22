@@ -16,7 +16,7 @@ window.addEventListener('scroll', function() {
   }
 
   function defaultBackground() {
-    return "#3c3c3c";
+    return "#e3919f";
   }
 
   if (top(sec2) > 51.1875) {

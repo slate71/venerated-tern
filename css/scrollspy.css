@@ -3,15 +3,22 @@ body {
   padding-top: 3.2rem;
 }
 
+.container,
+main {
+  margin: 0;
+  padding: 0;
+  min-height: 100%;
+}
+
 nav span,
 section {
   padding: .809rem;
 }
 
 nav {
-  background: #3c3c3c;
+  background: #e3919f;
   color: white;
-  line-height: 1.618rem;
+  line-height: 3rem;
   position: fixed;
   top: 0;
   width: 100%
@@ -19,6 +26,7 @@ nav {
 
 nav span {
   padding-right: .809rem;
+  text-shadow: 0 0 1px #000;
 }
 
 @media (max-width: 415px) {
@@ -34,6 +42,7 @@ nav span {
 
 nav a {
   color: white;
+  text-shadow: 0 0 1px #000;
   display: inline-block;
   padding: .809rem;
   text-decoration: none;
@@ -44,17 +53,35 @@ nav a:nth-child(2) {
 }
 
 section {
-  height: 625px;
+  min-height: 625px;
+  padding-bottom: 40px;
+  overflow: scroll;
 }
 
+section h2 {
+  color: #08545E;
+}
 .section1 {
-  background: #A1B0AB;
+  background: #0E9499;
 }
 
 .section2 {
-  background: #C3DAC3;
+  background: #2EC7CC;
 }
 
 .section3 {
-  background: #D5ECD4;
+  background: #72ffc6;
+}
+
+section figure {
+  width: 500px;
+  height: 400px;
+  margin: 90px auto 0;
+  background: #fff;
+  box-shadow: 0 4px 12px 2px grey;
+
+}
+footer {
+  height: 42px;
+  background: #e3919f;
 }
