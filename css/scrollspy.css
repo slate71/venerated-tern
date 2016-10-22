@@ -21,6 +21,17 @@ nav span {
   padding-right: .809rem;
 }
 
+@media (max-width: 415px) {
+  nav span {
+    display: block;
+    width: 100%;
+  }
+
+  section {
+    padding-top: 6rem;
+  }
+}
+
 nav a {
   color: white;
   display: inline-block;
