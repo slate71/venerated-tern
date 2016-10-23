@@ -28,7 +28,8 @@
     }
 
     function defaultBackground() {
-      return "#e3919f";
+      var sec = document.querySelector('nav');
+      return window.getComputedStyle(sec, null).getPropertyValue('background');
     }
   }
 
