@@ -3,7 +3,6 @@
 }
 body {
   font-family: 'Open Sans', sans-serif;
-  padding-top: 3.2rem;
 }
 
 .container,
@@ -24,7 +23,8 @@ nav {
   line-height: 3rem;
   position: fixed;
   top: 0;
-  width: 100%
+  width: 100%;
+  z-index: 10;
 }
 
 nav span {
@@ -52,7 +52,11 @@ nav a {
 }
 
 nav a:nth-child(2) {
+<<<<<<< HEAD
   background: #9ed4d6;
+=======
+  background: #0E9499;
+>>>>>>> c3ee62e53b9d4d3b211ceb478443ba4cdaf3722c
 }
 
 section {
