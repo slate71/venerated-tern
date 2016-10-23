@@ -94,8 +94,6 @@ article {
 
 a.thumbnail img {
   width: 100%;
-  border: 12px solid #b6dee0;
-  box-shadow: 0 0 1px #83a9c3;
   -webkit-transition: opacity .5s;
   transition: opacity .5s;
 }
@@ -125,8 +123,6 @@ a.thumbnail img {
   left: 0;
   max-width: 0%;
   max-height: 0%;
-  border: 12px solid #b6dee0;
-  box-shadow: 0 0 1px #83a9c3;
   -webkit-transition: .5s ease-in-out;
   transition: .5s ease-in-out;
 }
