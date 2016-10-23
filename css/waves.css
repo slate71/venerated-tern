@@ -1,0 +1,44 @@
+.section1 {
+  align-items: center;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+}
+
+.wave-effect {
+  cursor: pointer;
+  display: inline-block;
+  margin: 0 auto;
+  overflow: hidden;
+  position: relative;
+  -webkit-user-select: none;
+  -moz-user-select: none;
+  -ms-user-select: none;
+  user-select: none;
+  /* vertical-align: middle; */
+  will-change: opacity, transform;
+  z-index: 1;
+}
+
+
+.wave-effect .wave-ripple {
+    position: absolute;
+    border-radius: 50%;
+    width: 20px;
+    height: 20px;
+    margin-top:-10px;
+    margin-left:-10px;
+    opacity: 0;
+
+    background: rgba(255, 255, 255, 0.2);
+    transition: all 0.7s ease-out;
+    transition-property: transform, opacity;
+    transform: scale(0);
+    pointer-events: none;
+}
+
+@media (max-width: 530px) {
+  .wave-effect img {
+    max-width: 320px;
+  }
+}

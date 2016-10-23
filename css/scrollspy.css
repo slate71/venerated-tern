@@ -1,6 +1,5 @@
 body {
   font-family: 'Open Sans', sans-serif;
-  padding-top: 3.2rem;
 }
 
 .container,
@@ -21,7 +20,8 @@ nav {
   line-height: 3rem;
   position: fixed;
   top: 0;
-  width: 100%
+  width: 100%;
+  z-index: 10;
 }
 
 nav span {
@@ -49,7 +49,7 @@ nav a {
 }
 
 nav a:nth-child(2) {
-  background: #A1B0AB;
+  background: #0E9499;
 }
 
 section {
