@@ -33,5 +33,6 @@
     }
   }
 
+  scrollSpy();
   window.addEventListener('scroll', scrollSpy);
 })();
