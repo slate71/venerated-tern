@@ -1,45 +1,43 @@
-.section1 {
-  align-items: center;
-  display: flex;
-  flex-direction: column;
-  justify-content: center;
-  width: 100%;
-}
-
 .wave-effect {
   cursor: pointer;
   display: inline-block;
   margin: 0 auto;
   overflow: hidden;
   position: relative;
-  -webkit-user-select: none;
-  -moz-user-select: none;
-  -ms-user-select: none;
   user-select: none;
-  /* vertical-align: middle; */
   will-change: opacity, transform;
   z-index: 1;
 }
 
 
 .wave-effect .wave-ripple {
-    position: absolute;
-    border-radius: 50%;
-    width: 20px;
-    height: 20px;
-    margin-top:-10px;
-    margin-left:-10px;
-    opacity: 0;
-
-    background: rgba(255, 255, 255, 0.2);
-    transition: all 0.7s ease-out;
-    transition-property: transform, opacity;
-    transform: scale(0);
-    pointer-events: none;
+  background: white;
+  background: rgba(255, 255, 255, 0.2);
+  border-radius: 50%;
+  height: 20px;
+  margin-left:-10px;
+  margin-top:-10px;
+  opacity: 0;
+  pointer-events: none;
+  position: absolute;
+  -webkit-transform: scale(0);
+  -moz-transform: scale(0);
+  -ms-transform: scale(0);
+  -o-transform: scale(0);
+  transform: scale(0);
+  -webkit-transition: all 0.7s ease-out;
+  -moz-transition: all 0.7s ease-out;
+  -o-transition: all 0.7s ease-out;
+  transition: all 0.7s ease-out;
+  -webkit-transition-property: transform, opacity;
+  -moz-transition-property: transform, opacity;
+  -o-transition-property: transform, opacity;
+  transition-property: transform, opacity;
+  width: 20px;
 }
 
 @media (max-width: 530px) {
-  .wave-effect img {
+  img {
     max-width: 320px;
   }
 }

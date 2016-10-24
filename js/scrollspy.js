@@ -9,7 +9,7 @@
 
     var currentSectionIndex = scrollSections
       .map(sec => sec.getBoundingClientRect().bottom)
-      .findIndex(bottom => bottom >= navHeight);
+      .findIndex(bottom => bottom >= navHeight + 2);
 
     var currentSectionBackground = scrollSections
       .map(sec => getBackground(sec))
