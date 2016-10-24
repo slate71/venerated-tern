@@ -35,9 +35,3 @@
   transition-property: transform, opacity;
   width: 20px;
 }
-
-@media (max-width: 530px) {
-  img {
-    max-width: 320px;
-  }
-}
